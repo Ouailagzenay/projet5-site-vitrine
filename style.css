@@ -5,16 +5,21 @@ max-width: 100%;
 box-sizing: border-box;
 }
 header nav ul {
-    display: flex ;
-    justify-content :space-around;
-    background-color: #FF9B6A;
+    display: flex;
+    justify-content: space-between;
     list-style: none;
-}
-.logo{
-    width: 10%;
-    margin-right: 100px;
+    background-color: orangered;
     
 }
+
+.logo {
+    width: 110px;
+    margin-left: 10PX;
+    margin-top: 15px;
+    margin-bottom: 30PX;
+        
+}  
+
 .menu button{
     width: 160px;
     height: 40px;
