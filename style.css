@@ -4,6 +4,13 @@ margin: 0;
 max-width: 100%;
 box-sizing: border-box;
 }
+.logo {
+    width: 110px;
+    margin-left: 10PX;
+    margin-top: 15px;
+    margin-bottom: 30PX;
+    
+}
 header nav ul {
     display: flex;
     justify-content: space-between;
@@ -11,37 +18,28 @@ header nav ul {
     background-color: orangered;
     
 }
-
-.logo {
-    width: 110px;
-    margin-left: 10PX;
-    margin-top: 15px;
-    margin-bottom: 30PX;
-        
-}  
-
-.menu button{
-    width: 160px;
-    height: 40px;
-    margin-top: 50px;
-    font-size: 20px;
-    margin-left: 500px;
-    background-color: #161E54;
+.div1 {
+    display: FLEX;
+   
+}
+.Menu button{
+    margin-right: 20PX;
+    width: 150PX;
+    height: 41PX;
+    margin-top: 40PX;
 }
 .map button{
-    width: 160px;
-    height: 40px;
-    margin-top: 50px;
-    font-size: 16px;
-    background-color: #161E54;
-
+    margin-right: 10PX;
+    width: 150PX;
+    height: 41PX;
+    margin-top: 40PX;
 }
 .sec1{
     background-image: url(backg.jpg);
     height: 500px;
-    width: 1700px;
+    width: 1500px;
     background-size: cover;
-    max-width: 115%;
+    max-width: 100%;
    
 }
 .sec1 form div{
@@ -53,9 +51,6 @@ form{
     width: 370px;
     margin-left: 80px;
     padding-top: 80px;
-   
-
-
 }
 .text1 ,.text2, button{
     margin-bottom:50px ;
@@ -66,7 +61,7 @@ form{
     border-radius: 3PX;
     
 }
-div {
+.div2{
     background-color: #88E0EF;
     border-radius: 8PX;
     height: 370PX;
