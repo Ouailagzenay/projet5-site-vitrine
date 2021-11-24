@@ -1,0 +1,73 @@
+*{
+padding: 0;
+margin: 0;
+max-width: 100%;
+box-sizing: border-box;
+}
+header nav ul {
+    display: flex ;
+    justify-content :space-around;
+    background-color: #FF9B6A;
+    list-style: none;
+}
+.logo{
+    width: 10%;
+    margin-right: 100px;
+    
+}
+.menu button{
+    width: 160px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 500px;
+    background-color: #161E54;
+}
+.map button{
+    width: 160px;
+    height: 40px;
+    margin-top: 50px;
+    font-size: 16px;
+    background-color: #161E54;
+
+}
+.sec1{
+    background-image: url(backg.jpg);
+    height: 500px;
+    width: 1700px;
+    background-size: cover;
+    max-width: 115%;
+   
+}
+.sec1 form div{
+    display: flex;
+    flex-direction: column;
+    max-width: 115%;
+}
+form{
+    width: 370px;
+    margin-left: 80px;
+    padding-top: 80px;
+   
+
+
+}
+.text1 ,.text2, button{
+    margin-bottom:50px ;
+    padding-left: 20PX  ;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40PX;
+    border-radius: 3PX;
+    
+}
+div {
+    background-color: #88E0EF;
+    border-radius: 8PX;
+    height: 370PX;
+
+}
+.text1{margin-top: 10px;}
+.but2{
+    background-color: #FF9B6A;
+}
