@@ -23,16 +23,18 @@ header nav ul {
    
 }
 .Menu button{
-    margin-right: 20PX;
-    width: 150PX;
-    height: 41PX;
-    margin-top: 40PX;
-}
-.map button{
     margin-right: 10PX;
     width: 150PX;
     height: 41PX;
     margin-top: 40PX;
+    padding-left: 6PX;
+}
+.map button{
+    margin-right: 15PX;
+    width: 150PX;
+    height: 41PX;
+    margin-top: 40PX;
+    padding-left: 6Px;
 }
 .sec1{
     background-image: url(backg.jpg);
