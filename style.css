@@ -1,8 +1,8 @@
 *{
-padding: 0;
-margin: 0;
-max-width: 100%;
-box-sizing: border-box;
+    box-sizing: border-box;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
 }
 .logo {
     width: 110px;
@@ -41,41 +41,42 @@ header nav ul {
     height: 500px;
     width: 1500px;
     background-size: cover;
-    max-width: 100%;
-   
-}
+    max-width: 100%;}
 .sec1 form div{
-    display: flex;
-    flex-direction: column;
-    max-width: 115%;
-}
+        display: flex;
+        flex-direction: column;
+        max-width: 115%;
+    }
 form{
-    width: 370px;
-    margin-left: 80px;
-    padding-top: 80px;
-}
+        width: 370px;
+        margin-left: 80px;
+        padding-top: 80px;
+    }
 .text1 ,.text2, button{
-    margin-bottom:50px ;
-    padding-left: 20PX  ;
-    margin-left: 20px;
-    margin-right: 20px;
-    height: 40PX;
-    border-radius: 3PX;
-    
-}
+        margin-bottom:50px ;
+        padding-left: 20PX  ;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 40PX;
+        border-radius: 3PX;
+        
+    }
 .div2{
-    background-color: #88E0EF;
-    border-radius: 8PX;
-    height: 370PX;
+        background-color: #88E0EF;
+        border-radius: 8PX;
+        height: 370PX;
+    
+    }
 
-}
-.text1{margin-top: 10px;}
 .but2{
-    background-color: #FF9B6A;
+        background-color: #FF9B6A;
+    }
+footer{
+    display: flex;
+    background-color: #88E0EF;
+ justify-content: space-between;
+    flex-wrap: wrap;
 }
-.img6 {
-  width: 600px;
-  margin-left: 10PX;}
-  .img7 {
-    width: 600px;
-    margin-left: 10PX;}
+footer ul{
+    list-style: none;
+}
