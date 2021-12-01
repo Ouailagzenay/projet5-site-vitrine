@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
 }
+/*menu*/
 .logo {
     width: 110px;
     margin-left: 10PX;
@@ -40,6 +41,7 @@ header nav ul {
     background-color: #161E54;
     color: white;
 }
+/*secction1*/
 .sec1{
     background-image: url(backg.jpg);
     height: 500px;
@@ -87,21 +89,60 @@ form{
 .but2{
         background-color: #FF9B6A;
     }
+/*section2*/
+.p2 ,.p3{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 30PX;
+}
+.pt{
+    text-align: center;
+    margin-bottom: 15PX;
+    margin-top: 10PX;
+}
+/*footer*/    
 footer{
     display: flex;
     background-color: #88E0EF;
  justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
+    height: 200PX;
+    width:1440PX;
+    margin-top: 40PX;
+    padding-top: 20PX;
+    
 }
 footer ul{
     list-style: none;
 
 }
-.p2 ,.p3{
-    text-align: center;
-    margin-top: 45px;
+
+.li4{
+    padding-right: 40PX;
 }
-.pt{
-    text-align: center;
+.li1{
+    padding-left: 40PX;
 }
+/*page2*/
+.map1{
+    width: 500px;
+    margin-top: 20px;
+    margin-left: 30PX;
+    margin-bottom: 90px;
+    max-width: 600px;
+}
+.sec12{
+    display: flex;
+   flex-wrap: wrap;
+  
+}
+.lis{
+    margin-top: 50PX;
+    margin-left: 40px;
+    list-style: none;
+}
+.p22{
+    margin-left: 45px;
+    margin-top: 10px;
+}
+ 
