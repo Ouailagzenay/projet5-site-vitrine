@@ -62,8 +62,40 @@ border: none;
 background-color: #17246471;}
 .BOOK button a{
  text-decoration: none;
- color: white;
-        }
+ color: #ffffff;
+}
+.blog button{
+width: 110PX;
+height: 41PX;
+margin-top: 40PX;
+padding-left: 6Px;
+background-color: transparent;
+color: white;
+border: none;
+min-width: 80PX;
+}
+.blog button:hover {
+background-color: #17246471;}
+.blog button a{
+text-decoration: none;
+color: white;
+}    
+.us button{
+        
+width: 110PX;
+height: 41PX;
+margin-top: 40PX;
+padding-left: 6Px;
+background-color: transparent;
+color: white;
+ border: none;
+}
+.us button:hover {
+background-color: #17246471;} 
+.us button a{
+text-decoration: none;
+color: white;
+}
 /*secction1*/
 .sec1{
     background-image: url(backg.jpg);
