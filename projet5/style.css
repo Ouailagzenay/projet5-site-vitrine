@@ -9,7 +9,6 @@
     background-image: url(backg.jpg);
     background-size: cover;
     height:600px;
-    
 }
 .logo {
     width: 110px;
@@ -64,6 +63,22 @@ background-color: #17246471;}
  text-decoration: none;
  color: #ffffff;
 }
+.rom button{
+width: 110PX;
+height: 41PX;
+margin-top: 40PX;
+padding-left: 6Px;
+background-color: transparent;
+color: white;
+border: none;
+min-width: 80PX;
+}
+.rom button:hover {
+background-color: #17246471;}
+.rom button a{
+text-decoration: none;
+color: white;
+}
 .blog button{
 width: 110PX;
 height: 41PX;
@@ -98,52 +113,48 @@ color: white;
 }
 /*secction1*/
 .sec1{
-    background-image: url(backg.jpg);
-    height: 500px;
-    width: 1500px;
-    background-size: cover;
     max-width: 100%;}
-.p1{
-    width: 70%;
-    margin-left: 80px;
-    margin-top: 10px;
-}
-.text1{
-    margin-top: 50px;
-}
-.text2{
-    margin-top: 20px;
-}
-.but2{
-    margin-top: 20px;
-}
-.sec1 form div{
-        display: flex;
-        flex-direction: column;
-        max-width: 115%;
-    }
-form{
-        width: 370px;
+    .p1{
+        width: 70%;
         margin-left: 80px;
-        padding-top: 80px;
+        margin-top: 10px;
     }
-.text1 ,.text2, button{
-        padding-left: 20PX  ;
-        margin-left: 20px;
-        margin-right: 20px;
-        height: 50PX;
-        border-radius: 3PX; 
+    .text1{
+        margin-top: 50px;
     }
-.div2{
-        background-color: #161e54d2;
-        border-radius: 8PX;
-        height: 370PX;
+    .text2{
+        margin-top: 20px;
+    }
+    .but2{
+        margin-top: 20px;
+    }
+    .sec1 form div{
+            display: flex;
+            flex-direction: column;
+            max-width: 115%;
+        }
+    form{
+            width: 370px;
+            margin-left: 80px;
+            padding-top: 80px;
+        }
+    .text1 ,.text2, button{
+            padding-left: 20PX  ;
+            margin-left: 20px;
+            margin-right: 20px;
+            height: 50PX;
+            border-radius: 3PX; 
+        }
+    .div2{
+            background-color: #161e54d2;
+            border-radius: 8PX;
+            height: 370PX;
+        
+        }
     
-    }
-
-.but2{
-        background-color: #41679A;
-    }
+    .but2{
+            background-color: #41679A;
+        }
 /*section2*/
 .p2 ,.p3{
     text-align: center;
