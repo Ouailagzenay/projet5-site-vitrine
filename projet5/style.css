@@ -5,6 +5,12 @@
     margin: 0;
 }
 /*menu*/
+.secmenu{
+    background-image: url(backg.jpg);
+    background-size: cover;
+    height:600px;
+    
+}
 .logo {
     width: 110px;
     margin-left: 10PX;
