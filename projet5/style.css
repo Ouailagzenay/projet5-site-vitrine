@@ -15,38 +15,55 @@
     width: 110px;
     margin-left: 10PX;
     margin-top: 15px;
-    margin-bottom: 30PX;
+   min-width: 80px;
     
 }
 header nav ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    background-color: #161E54;
+    background-color: #161e549f;
     
 }
 .div1 {
     display: FLEX;
    
 }
-.Menu button{
-    margin-right: 10PX;
-    width: 150PX;
+.home button{
+    width: 110PX;
     height: 41PX;
     margin-top: 40PX;
     padding-left: 6PX;
-    background-color: #41679A;
+    background-color: transparent;
     color: rgb(255, 255, 255);
+    border: none;
+    min-width: 80PX;
+    
 }
-.map button{
-    margin-right: 15PX;
-    width: 150PX;
-    height: 41PX;
-    margin-top: 40PX;
-    padding-left: 6Px;
-    background-color: #161E54;
-    color: white;
+.home button:hover {
+background-color: #17246471;
+
 }
+.home button a{
+text-decoration: none;
+color: white;
+}
+.BOOK button{
+margin-left: 40px;
+width: 110PX;
+height: 41PX;
+margin-top: 40PX;
+padding-left: 6Px;
+background-color: transparent;
+color: white;
+border: none;
+}
+.BOOK button:hover {
+background-color: #17246471;}
+.BOOK button a{
+ text-decoration: none;
+ color: white;
+        }
 /*secction1*/
 .sec1{
     background-image: url(backg.jpg);
