@@ -3,6 +3,7 @@
     max-width: 100%;
     padding: 0;
     margin: 0;
+    list-style: none;
 }
 /*menu*/
 .secmenu{
@@ -12,23 +13,29 @@
 }
 .logo {
     width: 110px;
-    margin-left: 10PX;
+    margin-left: 140PX;
     margin-top: 15px;
-   min-width: 80px;
-    
+   min-width: 80px; 
 }
-header nav ul {
+nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
     background-color: #161e549f;
-    
+  
 }
-.div1 {
+
+.div1{
     display: FLEX;
-   
+    justify-content: space-between;
+    background: #696d8a9f;
+    width: 800px;
 }
-.home button{
+.divli{
+    display: flex;
+}
+
+.home, .rom,.blog ,.us{
     width: 110PX;
     height: 41PX;
     margin-top: 40PX;
@@ -37,81 +44,34 @@ header nav ul {
     color: rgb(255, 255, 255);
     border: none;
     min-width: 80PX;
-    
 }
-.home button:hover {
-background-color: #17246471;
-
+.home a:hover ,.rom a:hover,.blog a:hover ,.us a:hover{
+color: #41679A;
 }
-.home button a{
+.home a,.rom a,.blog a ,.us a{
 text-decoration: none;
 color: white;
 }
-.BOOK button{
+
+.BOOK {
 margin-left: 40px;
 width: 110PX;
 height: 41PX;
 margin-top: 40PX;
 padding-left: 6Px;
-background-color: transparent;
+background-color:#41679A;
 color: white;
 border: none;
+align-self: flex-start;
 }
-.BOOK button:hover {
+.BOOK :hover {
 background-color: #17246471;}
-.BOOK button a{
+.BOOK  a{
  text-decoration: none;
- color: #ffffff;
-}
-.rom button{
-width: 110PX;
-height: 41PX;
-margin-top: 40PX;
-padding-left: 6Px;
-background-color: transparent;
-color: white;
-border: none;
-min-width: 80PX;
-}
-.rom button:hover {
-background-color: #17246471;}
-.rom button a{
-text-decoration: none;
-color: white;
-}
-.blog button{
-width: 110PX;
-height: 41PX;
-margin-top: 40PX;
-padding-left: 6Px;
-background-color: transparent;
-color: white;
-border: none;
-min-width: 80PX;
-}
-.blog button:hover {
-background-color: #17246471;}
-.blog button a{
-text-decoration: none;
-color: white;
-}    
-.us button{
-        
-width: 110PX;
-height: 41PX;
-margin-top: 40PX;
-padding-left: 6Px;
-background-color: transparent;
-color: white;
- border: none;
-}
-.us button:hover {
-background-color: #17246471;} 
-.us button a{
-text-decoration: none;
-color: white;
-}
-/*secction1*/
+ color: #ffffff;}
+ 
+  
+ /* section1 */
 .sec1{
     max-width: 100%;}
     .p1{
@@ -155,6 +115,36 @@ color: white;
     .but2{
             background-color: #41679A;
         }
+        @media (max-width: 858px){
+            nav{
+                flex-direction: column;
+            }
+       .logo{
+         margin-left: 37%;
+       }
+       ul{
+           flex-direction: column;
+       }
+       .div1, .BOOK button{display: flex;}
+       .div1 li{
+           margin-left: 5px;
+           width: 90%;
+           margin-bottom: 5px;
+       }
+       .BOOK {margin-right: 5px;
+          margin-top:  25px;}
+        .text1 ,.text2 {
+             width: 90%;
+             height: 40px;
+          }
+          .but2 {width: 90%;
+            height: 10%;
+        }
+       .div2{height: 300px;
+       }
+        
+       }
+      
 /*section2*/
 .p2 ,.p3{
     text-align: center;
