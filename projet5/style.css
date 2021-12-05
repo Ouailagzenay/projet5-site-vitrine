@@ -28,7 +28,6 @@ nav ul{
 .div1{
     display: FLEX;
     justify-content: space-between;
-    background: #696d8a9f;
     width: 800px;
 }
 .divli{
@@ -65,7 +64,7 @@ border: none;
 align-self: flex-start;
 }
 .BOOK :hover {
-background-color: #17246471;}
+color: #17246471;}
 .BOOK  a{
  text-decoration: none;
  color: #ffffff;}
@@ -125,7 +124,8 @@ background-color: #17246471;}
        ul{
            flex-direction: column;
        }
-       .div1, .BOOK button{display: flex;}
+       .div1, .BOOK button{
+           display: flex;}
        .div1 li{
            margin-left: 5px;
            width: 90%;
@@ -233,3 +233,79 @@ margin-top: 35px;
 .lor2{
     margin-top: 20px;
 }
+/* section4 */
+.sec45{
+    background-image: url(p2.jpg);
+    max-width: 100%;
+    width: 1440px;
+    height: 550px;
+    background-size: cover;
+    }
+    .sec4{
+      display: flex;
+     height: 15%;
+      width: 60%;
+      margin-left: 60px;
+      margin-top: 35px;
+      background-color: gray;
+      border-radius: 5px;
+    }
+    
+    .sec4 p{
+      width: 55%;
+      padding-top: 30px;
+      display: flex;
+      justify-content: center;
+      
+    }
+    .sec5{
+      margin-bottom: 49px;
+    height: 70%;
+    border-radius: 5px;
+      background-color: gray;
+      max-width: 80%;
+      margin-left:40px;
+    }
+    .ima2{
+      margin-top: 40px;
+    
+      text-align: center;
+      max-width: 70%;
+     
+    }
+    .sec5{
+      text-align: center;
+      
+    }
+    .pato{
+      margin-top: 60px;
+    }
+    @media (max-width: 858px){
+        .sec4{
+          margin-top: 10px ;
+          border-radius: 5px;
+          width: 65%;
+          height: 10%;
+          margin-right: 50px;
+          background-color: grey;
+        }
+        .p11{
+          border-radius:5px ;
+        }
+        .sec4 p{
+        
+         padding-left: 5px;
+          display: flex;
+          margin-right:20px;
+        }
+        .sec45{margin-top: 40px;}
+        .sec5{
+          border-radius: 5px;
+          max-width: 90%;
+          margin-right: 27px;
+          padding-left: 12px;
+          margin-bottom: 90px;
+          height: 460px;
+
+        }
+        }
