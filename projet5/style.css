@@ -280,6 +280,52 @@ margin-top: 35px;
     .pato{
       margin-top: 60px;
     }
+    /* section5 */
+    .sec6{
+        text-align: center;
+       height: 300px;
+        background-color: #292529
+    }
+    .tost,.wifi{
+        width: 55px;
+        margin-top: 40Px;
+    }
+    .taxi {
+        margin-top: 40px;
+        width: 70px;
+    }
+    .more{
+        margin-top:35px ;
+        color: white;
+        font-size: 20px;
+        text-align:left;
+    }
+    .lor22{
+        color: gray;
+    }
+    .our {
+        margin-top: 70PX;
+        font-size: 30px;
+        font-family: monospace;
+        color: white;
+    }
+    .pick{margin-top: 25Px;
+         font-size: 20PX;
+        font-family:monospace;
+        color: white;
+    
+    }
+    .free { margin-top: 25Px;
+        font-size: 20px;
+        font-family: monospace;
+        color: rgb(255, 255, 255);
+    }
+    .div1{
+       margin-top: px;
+      
+    }
+    
+    
     @media (max-width: 858px){
         .sec4{
           margin-top: 10px ;
