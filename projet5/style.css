@@ -158,14 +158,15 @@ color: #17246471;}
 }
 /*footer*/    
 footer{
-    display: flex;
+    /* display: flex; */
     background-color: #7A7C7C;
- justify-content: space-between;
-    flex-wrap: wrap;
+ /* justify-content: space-between;
+    flex-wrap: wrap; */
     height: 200PX;
     width:1440PX;
     margin-top: 40PX;
     padding-top: 20PX;
+    
     
 }
 footer ul{
@@ -178,6 +179,7 @@ footer ul{
 }
 .li1{
     padding-left: 40PX;
+    width: 300px;
 }
 /*page2*/
 .map1{
@@ -244,7 +246,7 @@ margin-top: 35px;
     .sec4{
       display: flex;
      height: 15%;
-      width: 60%;
+      width: 80%;
       margin-left: 60px;
       margin-top: 35px;
       background-color: gray;
@@ -284,7 +286,11 @@ margin-top: 35px;
     .sec6{
         text-align: center;
        height: 300px;
+       margin-bottom: 40px;
         background-color: #292529
+    }
+    .sec61{
+        width: 80px;
     }
     .tost,.wifi{
         width: 55px;
@@ -320,38 +326,49 @@ margin-top: 35px;
         font-family: monospace;
         color: rgb(255, 255, 255);
     }
-    .div1{
-       margin-top: px;
-      
-    }
     
     
-    @media (max-width: 858px){
-        .sec4{
-          margin-top: 10px ;
-          border-radius: 5px;
-          width: 65%;
-          height: 10%;
-          margin-right: 50px;
-          background-color: grey;
-        }
-        .p11{
-          border-radius:5px ;
-        }
-        .sec4 p{
+    
         
-         padding-left: 5px;
-          display: flex;
-          margin-right:20px;
+    @media (max-width: 1199px){
+        .sec4{
+            margin-top: 10px ;
+            border-radius: 5px;
+            height: 10%;
+            margin-right: 60px;
+            background-color: grey;
+            font-size: 15px;
+          }
+          .p11{
+            border-radius:5px ;
+          }
+          .sec45{
+            height: 660px;
+          }
+          .psec4{
+            padding-bottom: 50px;
+          }
+          .sec4 p{
+          
+           padding-left: 5px;
+            display: flex;
+            margin-right:15px;
+          }
+          .sec5{
+            border-radius: 5px;
+            max-width: 90%;
+            margin-right: 30px;
+            margin-bottom: 90px;
+            height: 560px;
+          }
+          .ima2{
+            width: 60%;
+            margin-top: 50px;
+          }
+          .sec6{height: 1000px;}
+          }
+          @media (max-width: 768px){
+        .sec61{width: 70%;
         }
-        .sec45{margin-top: 40px;}
-        .sec5{
-          border-radius: 5px;
-          max-width: 90%;
-          margin-right: 27px;
-          padding-left: 12px;
-          margin-bottom: 90px;
-          height: 460px;
-
-        }
-        }
+    }
+          
