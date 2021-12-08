@@ -179,28 +179,25 @@ footer ul{
     width: 300px;
 }
 /*page3*/
-
-    
-.map1{
-    width: 500px;
-    margin-top: 20px;
-    margin-left: 30PX;
-    margin-bottom: 90px;
-    max-width: 600px;
-}
-.sec12{
+.form2{
     display: flex;
-   flex-wrap: wrap;
-  
+    flex-direction: column;
 }
-.lis{
-    margin-top: 50PX;
-    margin-left: 40px;
-    list-style: none;
+.entre{
+    height: 50px;
+    margin-bottom: 17px;
+}    
+.mesa{
+    height: 50px;
+    margin-bottom: 17px;
 }
-.p22{
-    margin-left: 45px;
-    margin-top: 10px;
+.op{
+    height: 50px;
+    margin-bottom: 17px;
+}
+.nom{
+    height: 140px;
+    margin-bottom: 25px;
 }
  /*page2*/
 .h11{
@@ -210,12 +207,11 @@ footer ul{
    margin-top: 16%;
    color: #ffffff;
 }
-.p12{
+.p21{
     margin-top: 30Px;
-    font-family: monospace;
-    font-size: 24px;
+    font-size: 14px;
     margin-bottom: 20px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .secmenus{
     background-image: url(p2.jpg);
@@ -240,13 +236,19 @@ margin-top: 35px;
 .div12{
     display: flex;
     margin-top: 20px;
-    margin-left: 24px;
+    
 }
-
+.p12{
+    margin-top: 30Px;
+    font-family: monospace;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
 .icon12{
-    width: 50px;
-    margin-left: 20px;
-    padding-right:20px ;
+    width: 40px;
+    padding-top: 20px;
+    margin-left: 30px;
     padding-bottom: 30px;
 }
 .text4{
@@ -291,10 +293,10 @@ margin-top: 35px;
     }
     .sec5{
       margin-bottom: 49px;
-    height: 70%;
+     height: 70%;
     border-radius: 5px;
       background-color: gray;
-      max-width: 80%;
+      max-width: 70%;
       margin-left:40px;
     }
     .ima2{
