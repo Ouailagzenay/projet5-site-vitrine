@@ -199,6 +199,15 @@ footer ul{
     height: 140px;
     margin-bottom: 25px;
 }
+iframe{
+    width: 80%;
+   height: 500Px;
+   margin-left: 120px;
+}
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
  /*page2*/
 .h11{
     text-align: center;
