@@ -56,7 +56,7 @@ color: white;
 margin-left: 40px;
 width: 110PX;
 height: 41PX;
-margin-top: 40PX;
+margin-top: 30PX;
 padding-left: 6Px;
 background-color:#41679A;
 color: white;
@@ -77,6 +77,7 @@ color: #17246471;}
         width: 70%;
         margin-left: 80px;
         margin-top: 10px;
+        color: white;
     }
     .text1{
         margin-top: 50px;
@@ -113,6 +114,7 @@ color: #17246471;}
     
     .but2{
             background-color: #41679A;
+            color: white;
         }
         @media (max-width: 858px){
             nav{
@@ -191,6 +193,39 @@ footer ul{
     height: 50px;
     margin-bottom: 17px;
 }
+.place , .email,.telephone{
+    width: 30px;
+}
+.p13{
+    font-size: 23px;
+    font-family:monospace ;
+    margin-left: 20px;
+}
+.div13{
+    display: flex;
+    margin-top: 20px;
+margin-bottom: 20px;
+}
+.p23{
+    font-size: 30px;
+    font-family:monospace ;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.p43{
+    font-size: 30px;
+    font-family: monospace;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20PX;
+
+}
+.p33{
+    font-size: 30px;
+    font-family:monospace ;
+    margin-bottom: 20px;
+    
+}
 .op{
     height: 50px;
     margin-bottom: 17px;
@@ -205,8 +240,9 @@ iframe{
    margin-left: 120px;
 }
 .vl {
-    border-left: 6px solid green;
-    height: 500px;
+    margin-top: 76px;
+    border-left: 3px solid black;
+    height: 474px;
   }
  /*page2*/
 .h11{
@@ -276,12 +312,17 @@ margin-top: 35px;
     margin-top: 20px;
 }
 /* section4 */
+.scrin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .sec45{
-    background-image: url(p2.jpg);
+    background-image: url(P22.jpg);
     max-width: 100%;
     width: 1440px;
     height: 550px;
     background-size: cover;
+    margin-bottom: 30px;
     }
     .sec4{
       display: flex;
@@ -289,7 +330,7 @@ margin-top: 35px;
       width: 80%;
       margin-left: 60px;
       margin-top: 35px;
-      background-color: gray;
+      background-color: #948989;
       border-radius: 5px;
     }
     
@@ -304,7 +345,7 @@ margin-top: 35px;
       margin-bottom: 49px;
      height: 70%;
     border-radius: 5px;
-      background-color: gray;
+      background-color:#C6BBBB;
       max-width: 70%;
       margin-left:40px;
     }
@@ -331,6 +372,7 @@ margin-top: 35px;
     }
     .sec61{
         width: 80px;
+       
     }
     .tost,.wifi{
         width: 55px;
